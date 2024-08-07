@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/mediaqueries.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">KRLNGL</div>
+    <div>
+      <ul class="nav-link">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sample.html">Sample</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">KRLNGL</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon"  onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-link">
+        <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="sample.html" onclick="toggleMenu()">Sample</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+      </div>
+    </div>
+  </nav>
+  <section class="sample-section">
+    <div>
+      <h1 id="sample-edit" style="margin: 15px;">Sample of my editing video</h1>
+      <div class="sample-container">
+        <div class="video-container sample-card">
+          <p>Title</p>
+          <video class="hover-video">
+              <source src="assets/lv_0_20240806150943.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-container sample-card">
+          <p>Title</p>
+          <video class="hover-video">
+              <source src="assets/lv_0_20240806150943.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-container sample-card">
+          <p>Title</p>
+          <video class="hover-video">
+              <source src="assets/lv_0_20240806150943.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="sample-container">
+      <div id="tools-container">
+        <h3>Scheduling, Meeting and Editing Tools</h1>
+        <a href="http://" target="_blank"><img class="tools" src="assets/cale.png"></a>
+
+        <a href="http://" target="_blank"><img class="tools" src="assets/gdrive.png"></a>
+
+        <a href="http://" target="_blank"><img class="tools" src="assets/gmai.png"></a>
+
+        <a href="http://" target="_blank"><img class="tools" src="assets/gpt.png"></a>
+
+        <a href="http://" target="_blank"><img class="tools" src="assets/canva.png"></a>
+
+        <a href="http://" target="_blank"><img class="tools" src="assets/pic.png"></a>
+        
+        <a href="http://" target="_blank"><img class="tools" src="assets/cap.png"></a>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="script.js"></script>
+</html>
